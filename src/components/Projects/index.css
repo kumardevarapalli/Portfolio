@@ -1,0 +1,77 @@
+
+
+.projects-main-container{
+    height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(6, 4, 61),rgb(14, 4, 73));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.projects-heading{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.projects-inner-container{
+    height: 100%px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.projects-images{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 1px 1px 5px #ffffff;
+}
+
+.image-data-container{
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+
+.projects-images-container{
+    height: 180px;
+    width: 280px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    filter: drop-shadow(0px 0px 5px rgb(133, 133, 133));
+}
+
+.projects-images-heading{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #02fbff;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.projects-images-paragraph{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin-top: -3px;
+}

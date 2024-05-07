@@ -1,0 +1,158 @@
+.skills-main-container{
+    height: 130vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(6, 4, 61),rgb(14, 4, 73));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-heading{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    letter-spacing: 1px;
+}
+
+.skills-inner-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.skills-progress-bar-container{
+    height: 100%;
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.skills-range-logo-container{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.skill-name{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.skill-progress-bar {
+    width: 500px;
+    height: 5px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    overflow: hidden;
+    
+}
+
+.progress-bar{
+    width: 0px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.progress-container{
+    height: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.percentage{
+    height: 25px;
+    width: 25px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #60f599;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.skills-progress-round-container{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skill{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.skill-para-container{
+    height: 160px;
+    max-width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.circular-progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+.progress-ring{
+    transform: rotate(0deg);
+}
+
+.progress-ring-circle{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 10;
+    stroke-dasharray: 314;
+    
+}
+
+
+.circular-progress text {
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  
